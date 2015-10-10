@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23F6C0051BC902A200BAC0F4 /* BTCRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F6C0041BC902A200BAC0F4 /* BTCRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F6C00C1BC902A200BAC0F4 /* BTCRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F6C0021BC902A200BAC0F4 /* BTCRatingView.framework */; settings = {ASSET_TAGS = (); }; };
+		23F6C0131BC902A200BAC0F4 /* BTCRatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F6C0121BC902A200BAC0F4 /* BTCRatingViewTests.m */; };
+		23F6C0171BC902A200BAC0F4 /* BTCRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F6C0021BC902A200BAC0F4 /* BTCRatingView.framework */; };
+		23F6C0181BC902A200BAC0F4 /* BTCRatingView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23F6C0021BC902A200BAC0F4 /* BTCRatingView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23F6C0201BC902B400BAC0F4 /* BTRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF684BFA1861A75000C827A6 /* BTRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23F6C0211BC902B600BAC0F4 /* BTRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF684BFB1861A75000C827A6 /* BTRatingView.m */; settings = {ASSET_TAGS = (); }; };
+		23F6C0221BC902BD00BAC0F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF684BD81861A68400C827A6 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		23F6C0231BC902C100BAC0F4 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BF684BD71861A68400C827A6 /* ViewController.h */; settings = {ASSET_TAGS = (); }; };
+		23F6C0241BC902C300BAC0F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF684BCF1861A68400C827A6 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		23F6C0251BC902C500BAC0F4 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BF684BCE1861A68400C827A6 /* AppDelegate.h */; settings = {ASSET_TAGS = (); }; };
+		23F6C0261BC902D400BAC0F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF684C021861ACC000C827A6 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		23F6C0271BC902D700BAC0F4 /* rateOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BF684BFE1861A9CA00C827A6 /* rateOff.png */; settings = {ASSET_TAGS = (); }; };
+		23F6C0281BC902D900BAC0F4 /* rateOn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF684BFF1861A9CA00C827A6 /* rateOn.png */; settings = {ASSET_TAGS = (); }; };
+		23F6C0291BC902E100BAC0F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF684BC81861A68400C827A6 /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
+		23F6C02A1BC902E400BAC0F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF684BCB1861A68400C827A6 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		23F6C02B1BC9032F00BAC0F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF684BC11861A68400C827A6 /* CoreGraphics.framework */; };
+		23F6C02C1BC9033C00BAC0F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF684BC31861A68400C827A6 /* UIKit.framework */; };
+		23F6C02D1BC9034A00BAC0F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF684BBF1861A68300C827A6 /* Foundation.framework */; };
 		BF684BC01861A68400C827A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF684BBF1861A68300C827A6 /* Foundation.framework */; };
 		BF684BC21861A68400C827A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF684BC11861A68400C827A6 /* CoreGraphics.framework */; };
 		BF684BC41861A68400C827A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF684BC31861A68400C827A6 /* UIKit.framework */; };
@@ -21,7 +40,51 @@
 		BF684C031861ACC000C827A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF684C021861ACC000C827A6 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		23F6C00D1BC902A200BAC0F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF684BB41861A68300C827A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F6C0011BC902A200BAC0F4;
+			remoteInfo = BTCRatingView;
+		};
+		23F6C00F1BC902A200BAC0F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF684BB41861A68300C827A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF684BBB1861A68300C827A6;
+			remoteInfo = BTRatingView;
+		};
+		23F6C0151BC902A200BAC0F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF684BB41861A68300C827A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F6C0011BC902A200BAC0F4;
+			remoteInfo = BTCRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23F6C01C1BC902A200BAC0F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23F6C0181BC902A200BAC0F4 /* BTCRatingView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		23F6C0021BC902A200BAC0F4 /* BTCRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTCRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F6C0041BC902A200BAC0F4 /* BTCRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCRatingView.h; sourceTree = "<group>"; };
+		23F6C0061BC902A200BAC0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F6C00B1BC902A200BAC0F4 /* BTCRatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCRatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F6C0121BC902A200BAC0F4 /* BTCRatingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCRatingViewTests.m; sourceTree = "<group>"; };
+		23F6C0141BC902A200BAC0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF684BBC1861A68300C827A6 /* BTRatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTRatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF684BBF1861A68300C827A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF684BC11861A68400C827A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,10 +107,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		23F6BFFE1BC902A200BAC0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F6C02D1BC9034A00BAC0F4 /* Foundation.framework in Frameworks */,
+				23F6C02C1BC9033C00BAC0F4 /* UIKit.framework in Frameworks */,
+				23F6C02B1BC9032F00BAC0F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F6C0081BC902A200BAC0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F6C00C1BC902A200BAC0F4 /* BTCRatingView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF684BB91861A68300C827A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F6C0171BC902A200BAC0F4 /* BTCRatingView.framework in Frameworks */,
 				BF684BC21861A68400C827A6 /* CoreGraphics.framework in Frameworks */,
 				BF684BC41861A68400C827A6 /* UIKit.framework in Frameworks */,
 				BF684BC01861A68400C827A6 /* Foundation.framework in Frameworks */,
@@ -57,10 +139,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23F6C0031BC902A200BAC0F4 /* BTCRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				23F6C0041BC902A200BAC0F4 /* BTCRatingView.h */,
+				23F6C0061BC902A200BAC0F4 /* Info.plist */,
+			);
+			path = BTCRatingView;
+			sourceTree = "<group>";
+		};
+		23F6C0111BC902A200BAC0F4 /* BTCRatingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				23F6C0121BC902A200BAC0F4 /* BTCRatingViewTests.m */,
+				23F6C0141BC902A200BAC0F4 /* Info.plist */,
+			);
+			path = BTCRatingViewTests;
+			sourceTree = "<group>";
+		};
 		BF684BB31861A68300C827A6 = {
 			isa = PBXGroup;
 			children = (
 				BF684BC51861A68400C827A6 /* BTRatingView */,
+				23F6C0031BC902A200BAC0F4 /* BTCRatingView */,
+				23F6C0111BC902A200BAC0F4 /* BTCRatingViewTests */,
 				BF684BBE1861A68300C827A6 /* Frameworks */,
 				BF684BBD1861A68300C827A6 /* Products */,
 			);
@@ -70,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				BF684BBC1861A68300C827A6 /* BTRatingView.app */,
+				23F6C0021BC902A200BAC0F4 /* BTCRatingView.framework */,
+				23F6C00B1BC902A200BAC0F4 /* BTCRatingViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,7 +237,58 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		23F6BFFF1BC902A200BAC0F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F6C0201BC902B400BAC0F4 /* BTRatingView.h in Headers */,
+				23F6C0051BC902A200BAC0F4 /* BTCRatingView.h in Headers */,
+				23F6C0231BC902C100BAC0F4 /* ViewController.h in Headers */,
+				23F6C0251BC902C500BAC0F4 /* AppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		23F6C0011BC902A200BAC0F4 /* BTCRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F6C0191BC902A200BAC0F4 /* Build configuration list for PBXNativeTarget "BTCRatingView" */;
+			buildPhases = (
+				23F6BFFD1BC902A200BAC0F4 /* Sources */,
+				23F6BFFE1BC902A200BAC0F4 /* Frameworks */,
+				23F6BFFF1BC902A200BAC0F4 /* Headers */,
+				23F6C0001BC902A200BAC0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCRatingView;
+			productName = BTCRatingView;
+			productReference = 23F6C0021BC902A200BAC0F4 /* BTCRatingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23F6C00A1BC902A200BAC0F4 /* BTCRatingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F6C01D1BC902A200BAC0F4 /* Build configuration list for PBXNativeTarget "BTCRatingViewTests" */;
+			buildPhases = (
+				23F6C0071BC902A200BAC0F4 /* Sources */,
+				23F6C0081BC902A200BAC0F4 /* Frameworks */,
+				23F6C0091BC902A200BAC0F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F6C00E1BC902A200BAC0F4 /* PBXTargetDependency */,
+				23F6C0101BC902A200BAC0F4 /* PBXTargetDependency */,
+			);
+			name = BTCRatingViewTests;
+			productName = BTCRatingViewTests;
+			productReference = 23F6C00B1BC902A200BAC0F4 /* BTCRatingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BF684BBB1861A68300C827A6 /* BTRatingView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF684BF11861A68400C827A6 /* Build configuration list for PBXNativeTarget "BTRatingView" */;
@@ -141,10 +296,12 @@
 				BF684BB81861A68300C827A6 /* Sources */,
 				BF684BB91861A68300C827A6 /* Frameworks */,
 				BF684BBA1861A68300C827A6 /* Resources */,
+				23F6C01C1BC902A200BAC0F4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23F6C0161BC902A200BAC0F4 /* PBXTargetDependency */,
 			);
 			name = BTRatingView;
 			productName = BTRatingView;
@@ -157,8 +314,17 @@
 		BF684BB41861A68300C827A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Borut Tomažin";
+				TargetAttributes = {
+					23F6C0011BC902A200BAC0F4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					23F6C00A1BC902A200BAC0F4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BF684BBB1861A68300C827A6;
+					};
+				};
 			};
 			buildConfigurationList = BF684BB71861A68300C827A6 /* Build configuration list for PBXProject "BTRatingView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -174,11 +340,31 @@
 			projectRoot = "";
 			targets = (
 				BF684BBB1861A68300C827A6 /* BTRatingView */,
+				23F6C0011BC902A200BAC0F4 /* BTCRatingView */,
+				23F6C00A1BC902A200BAC0F4 /* BTCRatingViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		23F6C0001BC902A200BAC0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F6C0261BC902D400BAC0F4 /* Default-568h@2x.png in Resources */,
+				23F6C0291BC902E100BAC0F4 /* InfoPlist.strings in Resources */,
+				23F6C0271BC902D700BAC0F4 /* rateOff.png in Resources */,
+				23F6C0281BC902D900BAC0F4 /* rateOn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F6C0091BC902A200BAC0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF684BBA1861A68300C827A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +380,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		23F6BFFD1BC902A200BAC0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F6C0221BC902BD00BAC0F4 /* ViewController.m in Sources */,
+				23F6C0211BC902B600BAC0F4 /* BTRatingView.m in Sources */,
+				23F6C02A1BC902E400BAC0F4 /* main.m in Sources */,
+				23F6C0241BC902C300BAC0F4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F6C0071BC902A200BAC0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F6C0131BC902A200BAC0F4 /* BTCRatingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF684BB81861A68300C827A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +412,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		23F6C00E1BC902A200BAC0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F6C0011BC902A200BAC0F4 /* BTCRatingView */;
+			targetProxy = 23F6C00D1BC902A200BAC0F4 /* PBXContainerItemProxy */;
+		};
+		23F6C0101BC902A200BAC0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF684BBB1861A68300C827A6 /* BTRatingView */;
+			targetProxy = 23F6C00F1BC902A200BAC0F4 /* PBXContainerItemProxy */;
+		};
+		23F6C0161BC902A200BAC0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F6C0011BC902A200BAC0F4 /* BTCRatingView */;
+			targetProxy = 23F6C0151BC902A200BAC0F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		BF684BC81861A68400C827A6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -219,6 +442,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		23F6C01A1BC902A200BAC0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BTCRatingView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.BTCRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23F6C01B1BC902A200BAC0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BTCRatingView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.BTCRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23F6C01E1BC902A200BAC0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BTCRatingViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.BTCRatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTRatingView.app/BTRatingView";
+			};
+			name = Debug;
+		};
+		23F6C01F1BC902A200BAC0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BTCRatingViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incravo.BTCRatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTRatingView.app/BTRatingView";
+			};
+			name = Release;
+		};
 		BF684BEF1861A68400C827A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -237,6 +552,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -297,7 +613,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTRatingView/BTRatingView-Prefix.pch";
 				INFOPLIST_FILE = "BTRatingView/BTRatingView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borut.tomazin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -309,7 +627,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTRatingView/BTRatingView-Prefix.pch";
 				INFOPLIST_FILE = "BTRatingView/BTRatingView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "borut.tomazin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -318,6 +638,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23F6C0191BC902A200BAC0F4 /* Build configuration list for PBXNativeTarget "BTCRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F6C01A1BC902A200BAC0F4 /* Debug */,
+				23F6C01B1BC902A200BAC0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23F6C01D1BC902A200BAC0F4 /* Build configuration list for PBXNativeTarget "BTCRatingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F6C01E1BC902A200BAC0F4 /* Debug */,
+				23F6C01F1BC902A200BAC0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		BF684BB71861A68300C827A6 /* Build configuration list for PBXProject "BTRatingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

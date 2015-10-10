@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF684BBB1861A68300C827A6"
-               BuildableName = "BTRatingView.app"
-               BlueprintName = "BTRatingView"
+               BlueprintIdentifier = "23F6C0011BC902A200BAC0F4"
+               BuildableName = "BTCRatingView.framework"
+               BlueprintName = "BTCRatingView"
                ReferencedContainer = "container:BTRatingView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "23F6C00A1BC902A200BAC0F4"
-               BuildableName = "BTCRatingViewTests.xctest"
-               BlueprintName = "BTCRatingViewTests"
-               ReferencedContainer = "container:BTRatingView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF684BBB1861A68300C827A6"
-            BuildableName = "BTRatingView.app"
-            BlueprintName = "BTRatingView"
-            ReferencedContainer = "container:BTRatingView.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF684BBB1861A68300C827A6"
-            BuildableName = "BTRatingView.app"
-            BlueprintName = "BTRatingView"
+            BlueprintIdentifier = "23F6C0011BC902A200BAC0F4"
+            BuildableName = "BTCRatingView.framework"
+            BlueprintName = "BTCRatingView"
             ReferencedContainer = "container:BTRatingView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF684BBB1861A68300C827A6"
-            BuildableName = "BTRatingView.app"
-            BlueprintName = "BTRatingView"
+            BlueprintIdentifier = "23F6C0011BC902A200BAC0F4"
+            BuildableName = "BTCRatingView.framework"
+            BlueprintName = "BTCRatingView"
             ReferencedContainer = "container:BTRatingView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
